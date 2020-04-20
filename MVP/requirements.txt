@@ -1,0 +1,14 @@
+# Run 'pip install -r requirements.txt'.
+# Unless you need to use pip3 instead of pip.
+# Firebase stuff
+pyrebase4
+firebase-admin
+firebase
+# Plotting
+# matplotlib # too big
+# Testing
+pytest
+# GUI Stuff
+# Make sure you run sudo apt-get install python3-tk
+Pillow
+sseclient

@@ -1,0 +1,240 @@
+/* Colors */
+/*
+dark blue: #476A6F
+light blue: #258EA6
+dark green: #519E8A
+medium green: #7EB09B
+light green: #A3C4BC
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+.vertical-line {
+  width: 2px; /* Line width */
+  background-color: #8a8a8a; /* Line color */
+  margin-top: 0.5%;
+  height: 29px;
+  display: inline-block;
+}
+
+.toggleButton-signup {
+  width: 450px;
+  display: flex;
+  height: 40px;
+  padding: 30px 10px 30px 10px;
+  border-radius: 10px;
+  align-items: center;
+  background-color: white;
+  margin-bottom: 10px;
+}
+
+.toggleButton-signup > button {
+  width: 210px;
+  height: 35px;
+  align-items: center;
+  border: 2px solid rgb(87, 169, 184);
+  /* background-color: rgb(87, 169, 184); */
+  color: black;
+  font-size: 0.9em;
+  margin: 7px;
+  transition-duration: 0.3s;
+}
+
+.toggleButton-signup > button.Register {
+  width: 210px;
+  height: 35px;
+  align-items: center;
+  border: 2px solid rgb(87, 169, 184);
+  background-color: rgb(87, 169, 184);
+  color: white;
+  font-size: 0.9em;
+  margin: 7px;
+  transition-duration: 0.3s;
+}
+
+.toggleButton-signup > button:hover {
+  color: white;
+  font-size: 0.9em;
+  background-color: rgb(87, 169, 184);
+  border: 2px solid rgb(87, 169, 184);
+}
+
+/* h1:after {
+  content: '';
+  display: block;
+  width: 380px;
+  margin: 10px auto;
+  padding: 2px;
+  border-bottom: 1px solid black;
+} */
+
+.container-wrapper {
+  height: 50vh;
+  width: 1%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(27, 136, 155);
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  object-fit: contain;
+  /* padding-bottom: 10px; */
+  margin-top: -50px;
+  margin-bottom: -25px;
+  margin-left: 3%;
+}
+
+.form-wrapper-signup {
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 10px 50px #555;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+}
+
+form {
+  /* padding: 15px; */
+  width: 100%;
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.form-wrapper-signup > h1 {
+  text-align: center;
+  width: 100%;
+  color: black;
+  font-weight: lighter;
+  font-size: 30px;
+  margin: 10px;
+  padding: 0px;
+}
+
+.form-wrapper-signup > h1:after {
+  content: '';
+  display: block;
+  width: 365px;
+  margin: 10px auto;
+  padding: 2px;
+  border-bottom: 1px solid black;
+}
+
+.form-wrapper-signup > label {
+  font-size: 0.8em;
+  margin-bottom: 0.25em;
+  color: #222;
+  font-weight: lighter;
+  /* padding: 5px; */
+}
+
+.form-wrapper-signup > input {
+  padding: 10px 10px;
+  border-radius: 2px;
+  border: 1px solid #8a8aa8a8;
+  margin-bottom: 5px;
+  height: 35px;
+}
+
+input.error {
+  border: 1px solid rgb(151, 21, 21);
+}
+
+.name {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  font-weight: bold;
+  margin-bottom: 10px;
+  padding-left: 30px;
+  margin-right: 10px;
+}
+
+.email,
+.password {
+  font-weight: bold;
+  margin-bottom: 2px;
+}
+
+.firstName > input {
+  width: 175px;
+  /* margin-left: 2%; */
+  margin-top: 3px;
+  margin-bottom: 2px;
+  height: 35px;
+}
+
+.lastName > input {
+  width: 175px;
+  /* margin-left: 2%; */
+  margin-top: 3px;
+  height: 35px;
+  margin-bottom: 2px;
+  height: 35px;
+}
+
+.email > input {
+  display: flex;
+  width: 370px;
+  margin-top: 3px;
+  margin-bottom: 2px;
+}
+
+.password > input {
+  display: flex;
+  width: 370px;
+  margin-top: 3px;
+  margin-bottom: 2px;
+}
+
+.signUp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 10px;
+}
+
+.signUp > button {
+  width: 370px;
+  height: 30px;
+  align-items: center;
+  border-radius: 2px;
+  border: 2px solid rgb(87, 169, 184);
+  background-color: rgb(87, 169, 184);
+  color: white;
+  font-size: 0.9em;
+  transition-duration: 0.3s;
+}
+
+.signUp > button:hover {
+  color: black;
+  font-size: 0.9em;
+  background-color: white;
+  border: 2px solid rgb(87, 169, 184);
+}
+
+.errorMsgName {
+  color: rgb(151, 21, 21);
+  font-size: 7px;
+  margin-left: 2.5%;
+  display: relative;
+  padding: 10px;
+}
+
+.errorMsg {
+  color: rgb(151, 21, 21);
+  font-size: 7px;
+  display: relative;
+}

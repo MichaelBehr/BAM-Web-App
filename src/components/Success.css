@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+.container-wrapper-success {
+  height: 50px;
+  width: 355px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(10, 134, 10, 0.15);
+  border-radius: 10px;
+  font-size: 12px;
+  color: rgba(4, 44, 4, 0.705);
+  padding: 10px 20px 10px 20px;
+  text-align: left;
+  line-height: 0.5cm;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}

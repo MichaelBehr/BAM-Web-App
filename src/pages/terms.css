@@ -1,0 +1,10 @@
+h1 {
+    text-emphasis: bold;
+    text-align: center;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+}
+
+.subheader {
+    text-align: justify;
+}

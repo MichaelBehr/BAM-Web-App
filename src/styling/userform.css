@@ -1,0 +1,119 @@
+/* PRELIM INFO STYLING */
+.province_layer{
+    background-color: rgba(15, 44, 231, 0.476);
+}
+
+.top_header{
+  text-align: center;
+  padding-top: 25px;
+}
+
+.header{
+    text-align: center;
+    font-weight: bold;
+}
+
+.caption{
+    text-align: center;
+    margin-top: 5px;
+}
+
+.container {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(10px, 1fr));
+    grid-auto-rows: auto;
+    background-color: rgba(15, 44, 231, 0.476);
+  }
+
+
+  .one {
+    grid-column: 2;
+    grid-row: 1;
+  }
+
+  .two { 
+    grid-column: 3;
+    grid-row: 1;
+  }
+
+  .three {
+    grid-column: 2;
+    grid-row: 2;
+  }
+
+  .four { 
+    grid-column: 3;
+    grid-row: 2;
+  }
+
+  .five {
+    grid-column: 2;
+    grid-row: 3;
+  }
+
+  .six { 
+    grid-column: 3;
+    grid-row: 3;
+  }
+
+  .seven {
+    grid-column: 2;
+    grid-row: 4;
+  }
+
+  .eight { 
+    grid-column: 3;
+    grid-row: 4,
+  }
+
+  /* BANK INFO STYLING */
+
+.bank_container{
+  background-color: rgba(15, 44, 231, 0.476);
+  padding-top: 15px;
+  padding-bottom: 25px;
+}
+
+.bank_header{
+  text-align: center;
+  /* padding-top: 25px; */
+
+}
+
+/* SUMMARY STYLING */
+.sizing{
+  background-color: rgba(15, 44, 231, 0.476);
+  width: 1700px;
+  padding-top: 20px;
+}
+
+.container2 {
+  width: 1000px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  column-width: 100px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(10px, 1fr));
+  grid-auto-rows: auto;
+
+}
+.left{
+    grid-column: 1;
+    grid-row: 1;
+
+}
+
+.middle{
+  grid-column: 2;
+  grid-row: 1;
+
+}
+
+.right{
+    grid-column: 3;
+    grid-row: 1;
+}
+
+
