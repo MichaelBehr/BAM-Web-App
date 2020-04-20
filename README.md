@@ -9,6 +9,13 @@ This project involves solving the vertex cover, optimization problem using Pytho
 * Libraries: JS React
 * Database: Firebase
 * Testing: Jest, Enzyme, npm
+* CI: Gitlab runner
 
 ### Summary
-This was an open ended class project for ECE-651. My group utilized Gitlab for project development, with this repository being a clone of the original on my Gitlab account.
+This was an open ended class project for ECE-651. My group utilized Gitlab for project development, with this repository being a clone of the original on my Gitlab accounts. To list the features of this project:
+
+* Web based prototype of a budget management app
+* Front end built using Material-ui, JSX, HTML, and CSS
+* Automated unit testing and continuous integration utilizing raspberry-pi Gitlab runner
+* Asynchronous database connectivity (Firebase) to allow for real time statistics and data updates in the application
+
