@@ -7,6 +7,8 @@ This project involves solving the vertex cover, optimization problem using Pytho
 * Languages: HTML, CSS, Javascript, Python
 * Frameworks: Material-ui
 * Libraries: JS React
+* Runtime Environment: Node Js
+* Package Manager: npm
 * Database: Firebase
 * Testing: Jest, Enzyme, npm
 * CI: Gitlab runner
