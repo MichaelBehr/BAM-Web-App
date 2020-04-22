@@ -1,7 +1,7 @@
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier) 
 
 # ECE651
-This project involves solving the vertex cover, optimization problem using Python, and C++. All descriptions for each assignment are pulled directly from the PDF descriptions in the course. 
+This project was to design a web-based budgeting application to help students financially manage their spending. 
 
 ### Technologies
 * Languages: HTML, CSS, Javascript, Python
