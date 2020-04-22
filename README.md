@@ -21,3 +21,7 @@ This was an open ended class project for ECE-651. My group utilized Gitlab for p
 * Automated unit testing and continuous integration utilizing raspberry-pi Gitlab runner
 * Asynchronous database connectivity (Firebase) to allow for real time statistics and data updates in the application
 
+### Getting Started
+* Clone the repo using git clone https://github.com/MichaelBehr/BAM-Web-App.git
+* Install dependencies and packages using the command: npm install
+* To start BAM use the command: npm start
