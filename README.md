@@ -14,7 +14,7 @@ This project was to design a web-based budgeting application to help students fi
 * CI: Gitlab runner
 
 ### Summary
-This was an open ended class project for ECE-651. My group utilized Gitlab for project development, with this repository being a clone of the original on my Gitlab accounts. To list the features of this project:
+This was an open ended class project for ECE-651. My group utilized Gitlab for project development, with this repository being a clone of the original repository hosted on the University of Waterloo's gitlab: https://git.uwaterloo.ca/s3jan/ece-651-project---bam. To list the features of this project:
 
 * Web based prototype of a budget management app
 * Front end built using Material-ui, JSX, HTML, and CSS
