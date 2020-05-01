@@ -1,7 +1,7 @@
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier) 
 
 # ECE651
-This project was to design a web-based budgeting application to help students financially manage their spending. 
+This project was to design a web-based budgeting application to help individuals financially manage their spending and saving.
 
 ### Technologies
 * Languages: HTML, CSS, Javascript, Python
