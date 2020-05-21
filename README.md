@@ -21,9 +21,7 @@ This was an open ended class project for ECE-651. My group utilized Gitlab for p
 * Automated unit testing and continuous integration utilizing raspberry-pi Gitlab runner
 * Asynchronous database connectivity (Firebase) to allow for real time statistics and data updates in the application
 
-## Demonstrations 
-[Click Here for Additional Demonstrations](DEMO.md)
-  ### Dashboard
+## Demo 
   ![](Demo.gif)
 
 ### Getting Started
